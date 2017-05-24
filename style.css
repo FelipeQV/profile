@@ -1,1 +1,93 @@
 /* Here goes your CSS */
+* {font-family: arial;}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #F06543;
+}
+
+h2 {
+  color: #011936;
+}
+
+body {
+  background-color: #FDFFFC;
+}
+
+p {
+  color: #82A3A1;
+}
+
+#ppic {
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px 2px gray;
+  border: 2px solid white;
+}
+
+.image {
+  border-radius: 2%;
+  box-shadow: 1px 1px 2px gray;
+  display: inline-block;
+  padding: 1px;
+  margin: 0 auto;
+}
+
+.profile {
+  width: all;
+  margin: 0 auto;
+  text-align: center;
+  background: #011936;
+  padding: 30px;
+}
+
+.card {
+  background-color: #E8E9EB;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #465362;
+  box-shadow: 1px 1px 2px gray;
+  border-radius: 2%;
+}
+.pictures {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+
+a {
+  color: #F06543;*/
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline;}
+
+  table tr {
+    padding: 5px;
+    display: inline-block;}
+
+    table h2 {
+      margin-bottom: 0px;
+    }
+
+    table td {
+    }
+    .list-inline {
+      padding-left: 0px;
+    }
+
+    .list-inline li {
+     display: inline-block;
+   }
+   .food-pic p {padding: 2px;
+    margin: 2px;}
+    .food-pic h2 {padding: 2px;
+      margin: 2px;
+    }
+    .list-lines p {margin: 3px;}
