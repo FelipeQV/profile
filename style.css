@@ -41,7 +41,8 @@ p {
   width: all;
   margin: 0 auto;
   text-align: center;
-  background: #011936;
+  background-color: #465362;
+
   padding: 30px;
 }
 
@@ -91,3 +92,26 @@ a:hover {
       margin: 2px;
     }
     .list-lines p {margin: 3px;}
+
+
+    #sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #011936;
+  box-shadow: 1px 1px 2px gray;
+
+    }
+
+  #sidebar i {
+    color: #FDFFFC;
+    size: 250px;
+    }
+
+
+}
+#page-content {
+  margin-left: 300px;
+}
